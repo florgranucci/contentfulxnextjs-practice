@@ -17,7 +17,7 @@ header {
 }
 header a {
   text-decoration: none;
-  color: black;
+  color: #114e60;
   text-transform: uppercase;
   display: inline-block;
 }
@@ -41,7 +41,7 @@ header h2 {
   font-weight: 400;
 }
 footer {
-  background: #111;
+  background: #325288;
   color: #bbb;
   padding: 40px;
   text-align: center;

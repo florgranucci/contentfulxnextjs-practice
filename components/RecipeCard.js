@@ -30,10 +30,11 @@ export const RecipeCard = ({ recipe }) => {
                 display: flex;
                 flex-direction: column;
                 margin: 10px;
-                padding: 10px;
                 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
                 transition: 0.3s;
                 border-radius: 8px;
+                cursor: pointer;
+                transform: rotateZ(-4deg);
                 }
 
                 .card:hover {
@@ -47,28 +48,43 @@ export const RecipeCard = ({ recipe }) => {
                 }
 
                 .content {
-                    padding: 15px;
+                    background: #fff;
                 }
                 
                 .content .info {
-                    height: 100px;
-                    padding-bottom: 15px;
+                    height: 120px;
+                    padding: 18px;
+                    margin-bottom: 15px;
                 }
 
                 .content .info h4 {
                     color: #114e60;
+                    margin-bottom: 10px;
                 }
 
-                .content .info p {
-                    font-size:1rem;
-                }
+                .info p {
+                    margin: 0;
+                    color: #777;
+                    font-size: 1rem;
+                  }
 
-                .content .actions a {
+                .actions {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: flex-end;
+                  }
+                  .actions a {
+                    color: #fff;
+                    background: #325288;
+                    padding: 16px 24px;
                     text-decoration: none;
-                    color: #325288;
                     text-transform: uppercase;
                     font-size: 1rem;
-                }
+                  }
+
+                  .actions a:hover {
+                      background: #114e60;
+                  }
 
             `}</style>
 
