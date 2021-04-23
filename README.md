@@ -1,4 +1,6 @@
-### Link: https://contentfulxnextjs-practice-dv8lszknt-florgranucci.vercel.app/
+<h1>Basic project to practice Next js with Contentful integration </h1>
+
+## Link: https://contentfulxnextjs-practice-dv8lszknt-florgranucci.vercel.app/
 
 <img src='https://i.ibb.co/zHDZ7Dk/Captura-de-pantalla-de-2021-04-22-23-10-38.png' />
 
