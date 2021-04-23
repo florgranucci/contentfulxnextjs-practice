@@ -28,7 +28,7 @@ export default function Recipes({ recipes }) {
       <style jsx>{`
         
         .recipe-list{
-          width: 90%;
+          width: 80%;
           display: flex;
           justify-content: center;
           align-items: center;

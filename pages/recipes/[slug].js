@@ -47,8 +47,8 @@ export default function RecipeDetails({ recipe }) {
     <div className="container">
       <div className="banner">
         <Image
-          width="600"
-          height="750"
+          width="400"
+          height="550"
           src={`https:${thumbnail.fields.file.url}`}
         />
       </div>
@@ -72,7 +72,7 @@ export default function RecipeDetails({ recipe }) {
           flex-wrap: wrap;
           padding: 25px 15px 25px 15px;
           margin-bottom: 50px;
-          width: 80%;
+          width: 70%;
           background-color: #fff;
           border-radius: 10px;
         }
@@ -92,7 +92,7 @@ export default function RecipeDetails({ recipe }) {
           display: flex;
           justify-content: center;
           align-items: center;
-          padding-right: 40px;
+          padding-right: 25px;
         }
 
         .info {
@@ -111,12 +111,19 @@ export default function RecipeDetails({ recipe }) {
           display: inline-block;
           padding: 20px;
           position: relative;
+          font-size: 1.6rem;
           transform: rotateZ(-1deg);
           box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
         }
 
         .container p {
           margin: 0;
+          font-size: 1.1rem;
+          width: 80%;
+        }
+
+        .info span {
+          font-size: 1.2rem;
         }
 
         .info span::after {

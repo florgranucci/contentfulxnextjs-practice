@@ -28,7 +28,7 @@ export const RecipeCard = ({ recipe }) => {
       <style jsx>{`
         .card {
           max-width: 300px;
-          max-height: 800px;
+          max-height: 700px;
           display: flex;
           flex-direction: column;
           margin: 10px;
